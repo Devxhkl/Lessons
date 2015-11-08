@@ -18,7 +18,7 @@ class NewViewController: UIViewController {
         super.viewDidLoad()
         
         if let text = textFromIvoTextView {
-            print(text)
+            ivoLabel.text = text
         }
 
         // Do any additional setup after loading the view.
